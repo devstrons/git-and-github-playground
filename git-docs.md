@@ -6,31 +6,29 @@
 
 Git is the most commonly used version control system. Git tracks the changes you make to files, so you have a record of what has been done, and you can revert to specific versions should you ever need to. Git also makes collaboration easier, allowing changes by multiple people to all be merged into one source.
 
-Version control is a means of recording changes to a file or set of files over time so that you can recall specific versions later.
+Version control means recording changes to a file or set of files over time so that you can recall specific versions later.
 
 ### 1. Install Git
 
-First, you need to install the Git version control software.
-
-- Git:
-  Install [git](https://git-scm.com/downloads)
+First, you need to install the Git version control\
+software for your operating system here: https://git-scm.com/downloads
 
 
 ### 2. Checking status of the repository
 
-The _git status_ command allows you to know the status of the project:
+The `git status` command allows you to check the status of the project:
 If it is
 
 - initiated
 - modified
 - staged
 
-We can write the command _git status_ at any time. It is a means to to check what is happening on your project.
+We can use the command `git status` at any time. It is a means to check what is happening on your project.
 
 
 ### 3. Configure your name and your email
 
-Open the Git bash if your device is Windows, or open the Mac terminal if your device is MacOS and then write the following commands
+Open the Git bash if your device is Windows, or open the Mac terminal if your device is MacOS. `global` means the specified account will be used for all cloned repositories. Next, write up the following commands below:
 
 ```shell
 git config --global user.name 'yourname'
@@ -119,29 +117,27 @@ The _git log_ command allows you to check  the commit history of the project. It
 
 Branch in Git is similar to the branch of a tree. Analogically, a tree branch is attached to the central part of the tree called the trunk. While branches can generate and fall off, the trunk remains compact and is the only part by which we can say the tree is alive and standing. Similarly, a branch in Git is a way to keep developing and coding a new feature or modification to the software and still not affecting the main part of the project. We can also say that branches create another line of development in the project. The primary or default branch in Git is the main branch (similar to a trunk of the tree). As soon as the repository creates, so does the main branch (or the default branch).
 
-To create a branch:
-
-- Only to create branch
+To create a branch (only create it):
 
 ```shell
-    git branch -u branch-name
+git branch -u branch-name
 ```
 
 - To create and checkout to the branch at the same time:
 
 ```shell
-    git checkout -b branch-name
+git checkout -b branch-name
 ```
 
 To switch between branches:
 
 ```shell
-    git checkout main
-    git checkout branch-name
+git checkout main
+git checkout branch-name
 ```
 
 To list down all the branches:
 
 ```shell
-    git branch
+git branch
 ```
