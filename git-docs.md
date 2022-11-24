@@ -35,11 +35,11 @@ git config --global user.name 'yourname'
 git config --global user.email 'youremail'
 ```
 
-### 4. Create a local git repository
+### 4. Creating a local Git repository
 
 In this step, you will create a folder (directory) for your project. A project is just a simple folder that stores all the files related to a certain project. A local repository is a project or a folder that is on your computer.
 
-If your Git bash is not opened, go to start and type git bash. Git terminal will popup on Windows devices. If it is MasOS just open the Mac terminal. On the terminal write:
+If Git Bash is not opened, search for Git Bash and open it. The terminal will pop up on Windows devices. If it's MacOS, just open the Mac terminal. Now type:
 
 ```shell
 mkdir project_name
